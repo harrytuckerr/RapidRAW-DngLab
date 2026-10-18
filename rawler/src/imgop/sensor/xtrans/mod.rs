@@ -4,3 +4,7 @@
 // This file is reserved for X-Trans specific sensor code.
 
 pub mod demosaic;
+
+/// Explicit borrowed opt-in demosaic; legacy dispatch is unchanged.
+pub mod external;
+pub mod markesteijn;
